@@ -35,6 +35,7 @@ int main()
         sleep_ms(5000);
 
         /* Amber. */
+        gpio_put(GREEN_PIN, 0);
         gpio_put(AMBER_PIN, 1);
         sleep_ms(2000);
 
